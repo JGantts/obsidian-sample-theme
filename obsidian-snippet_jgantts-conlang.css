@@ -1,0 +1,162 @@
+/*
+Junicode
+
+Inter
+
+Andika
+
+Charis SIL
+*/
+
+body {
+  --font-text: 'Junicode';
+  /*--table-white-space: nowrap;*/
+  --text-normal: var(--dull12);
+}
+
+.uilang-low {
+  --table-header-font: 'Inter';
+  font-family: 'Inter';
+  font-weight: 400;
+  --table-text-color: var(--dull11);
+  color: var(--dull11)
+}
+
+.uilang-mid {
+  --table-header-font: 'Inter';
+  font-family: 'Inter';
+  font-weight: 400;
+  --table-text-color: var(--dull11);
+  color: var(--dull11)
+}
+
+.uilang-hi {
+  --table-header-font: 'Inter';
+  font-family: 'Inter';
+  font-weight: 700;
+  --table-text-color: var(--primary11);
+  color: var(--primary11)
+}
+
+.natlang {
+  font-family: 'Junicode';
+  font-weight: 100;
+  font-style: italic;
+  --table-text-color: var(--dull11);
+}
+
+.conlang-low, .conlang-low td {
+  font-family: 'Junicode';
+  font-weight: 400;
+  --table-text-color: var(--dull11);
+  color: var(--dull11)
+}
+
+.conlang-mid, .conlang-mid td {
+  font-family: 'Junicode';
+  font-weight: 400;
+  --table-text-color: var(--primary11);
+  color: var(--primary11)
+}
+
+.conlang-hi, .conlang-hi td {
+  font-family: 'Junicode';
+  font-weight: 700;
+  --table-text-color: var(--primary11);
+  color: var(--primary11)
+}
+
+.ipalang {
+  font-family: 'Source Sans 3';
+  font-weight: 100;
+  --table-text-color: var(--dull11);
+}
+
+/*
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+  font-family: 'Inter';
+}*/
+
+
+body.color-active {
+  --color-base-00: var(--primary1);
+  --color-base-05: var(--primary2);
+  --color-base-10: var(--primary3);
+  --color-base-20: var(--primary4);
+  --color-base-25: var(--primary5);
+  --color-base-30: var(--primary6);
+  --color-base-35: var(--primary7);
+  --color-base-40: var(--primary8);
+  --color-base-50: var(--primary9);
+  --color-base-60: var(--primary10);
+  --color-base-70: var(--primary11);
+  --color-base-100: var(--primary12);
+  
+  --color-accent: var(--primary11);
+  --color-accent-1: var(--primary9);
+  --color-accent-2: var(--primary10);
+
+  --background-primary: var(--primary5);
+  --background-secondary: var(--primary1);
+  
+  --background-modifier-border: var(--primary8);
+  --background-modifier-border-hover: var(--primary9);
+  --background-modifier-border-focus: var(--primary10);
+
+  --bold-color: var(--primary11);
+  --italic-color: var(--primary10);
+  --table-header-color: var(--primary11);
+
+
+  --h1-size: 3.66rem;
+  --h2-size: 3.33rem;
+  --h3-size: 3rem;
+  --h4-size: 2.66rem;
+  --h5-size: 2.33rem;
+  --h6-size: 2rem;
+  --font-text-size: 1rem;
+
+}
+
+.markdown-preview-sizer div {
+  overflow-x: visible !important;
+}
+
+body {
+  --table-column-first-border-width: 0;
+  --table-column-last-border-width: 0;
+  --table-header-border-width: 0;
+  --table-row-last-border-width: 0;
+  --table-header-border-width: 0;
+}
+
+
+
+.markdown-preview-view td,
+.markdown-preview-view th {
+  border-right-color: transparent;
+  border-left-color: transparent;
+
+}
+
+.markdown-rendered table {
+  margin: 1.5em 0;
+}
+
+.markdown-rendered thead tr > th {
+  --table-header-border-color: #00000000;
+  border-bottom: inherit;
+}
+
+.cell-align-right {
+  text-align: right;
+}
+
+.icon-text {
+  font-weight: 700;
+}
